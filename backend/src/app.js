@@ -8,10 +8,9 @@ dotenv.config();
 
 // ✅ Enable CORS for your frontend port (Vite: 5173)
 app.use(cors({
-  origin: 'http://localhost:5173',
-  methods: ['GET', 'POST', 'OPTIONS'],
-  credentials: true, // only if you're sending cookies
+  origin: '*'
 }));
+
 
 // ✅ Must come after cors()
 app.use(express.json());

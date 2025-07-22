@@ -25,3 +25,4 @@ build/
 
 # Optional: ignore coverage reports (if using testing)
 coverage/
+.vercel
