@@ -15,9 +15,9 @@ app.use(cors({
 // ✅ Must come after cors()
 app.use(express.json());
 
-app.get('/', (req, res) => {
-  res.json("App is working great 😁");
-});
+// app.get('/', (req, res) => {
+//   res.json("App is working great 😁");
+// });
 
 app.use('/ai', aiRoutes);
 
