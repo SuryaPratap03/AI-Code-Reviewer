@@ -47,7 +47,7 @@ const Right = ({setCode,callAI,setLoading}) => {
             setLoading(true)
             // You can send `code` to backend or another component here
           }}
-          className="px-4 py-2 bg-blue-600 hover:bg-blue-700 transition text-white rounded-lg font-semibold"
+          className="px-4 py-2 bg-blue-600 hover:bg-blue-700 transition text-black rounded-lg font-semibold"
           onClickCapture={()=>callAI()}
         >
           Send Code
